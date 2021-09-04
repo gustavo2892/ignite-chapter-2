@@ -24,6 +24,11 @@ export const Container = styled.form`
       color: var(--text-body);
     }
 
+    &:focus {
+      outline: none;
+      border-color: var(--blue);
+    }
+
     & + input {
       margin-top: 1rem;
     }
